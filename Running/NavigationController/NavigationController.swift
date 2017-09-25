@@ -40,10 +40,14 @@ class NavigationController: UINavigationController {
         switch itemType {
             
         case .main:
+            
             addChildViewController(MainViewController())
             
+            self.tabBarItem = UITabBarItem(title: "Map", image: nil, tag: 0)
+            
         case .profile:
-            break
+            
+            self.tabBarItem = UITabBarItem(title: "Profile", image: nil, tag: 1)
             
         }
 
