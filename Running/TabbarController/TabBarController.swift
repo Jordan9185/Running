@@ -10,7 +10,7 @@ import UIKit
 
 class TabBarController: UITabBarController {
 
-    let mainNavigationController = NavigationController()
+    let mainNavigationController = NavigationController(tabBarItemType: .main)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,9 +20,7 @@ class TabBarController: UITabBarController {
     
     func setUpMainNavigationController() {
         
-        self.addChildViewController(mainNavigationController)
-        
-        mainNavigationController.addChildViewController(MainViewController())
+        addChildViewController(mainNavigationController)
         
     }
 

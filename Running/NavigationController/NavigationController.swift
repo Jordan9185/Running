@@ -9,9 +9,43 @@
 import UIKit
 
 class NavigationController: UINavigationController {
+    
+    // MARK: Init
+    
+    init(tabBarItemType: TabBarItemType) {
+        
+        super.init(nibName: nil, bundle: nil)
+        
+        prepare(for: tabBarItemType)
+        
+    }
 
+    required init?(coder aDecoder: NSCoder) {
+        
+        super.init(coder: aDecoder)
+        
+    }
+    
+    // MARK: View Life Cycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+
+    }
+
+    // MARK: Prepare Item Type
+    
+    func prepare(for itemType: TabBarItemType) {
+        
+        switch itemType {
+            
+        case .main:
+            addChildViewController(MainViewController())
+            
+        case .profile:
+            break
+            
+        }
 
     }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9832E6FF1F78A20C00BC4D9F /* TabBarItemType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9832E6FE1F78A20C00BC4D9F /* TabBarItemType.swift */; };
 		98E116BE1F74E89600FC1E83 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E116BD1F74E89600FC1E83 /* MainViewController.swift */; };
 		98E116C21F74EC8B00FC1E83 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E116C11F74EC8B00FC1E83 /* TabBarController.swift */; };
 		98E116C61F74ECBE00FC1E83 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98E116C51F74ECBE00FC1E83 /* NavigationController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9832E6FE1F78A20C00BC4D9F /* TabBarItemType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarItemType.swift; sourceTree = "<group>"; };
 		98E116BD1F74E89600FC1E83 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		98E116C11F74EC8B00FC1E83 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		98E116C51F74ECBE00FC1E83 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				98E116C11F74EC8B00FC1E83 /* TabBarController.swift */,
+				9832E6FE1F78A20C00BC4D9F /* TabBarItemType.swift */,
 			);
 			path = TabbarController;
 			sourceTree = "<group>";
@@ -123,6 +126,7 @@
 				TargetAttributes = {
 					B89A0AC11F6025F500E99B38 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MH7SBDD83A;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -165,6 +169,7 @@
 				98E116C21F74EC8B00FC1E83 /* TabBarController.swift in Sources */,
 				98E116C61F74ECBE00FC1E83 /* NavigationController.swift in Sources */,
 				B89A0AC61F6025F500E99B38 /* AppDelegate.swift in Sources */,
+				9832E6FF1F78A20C00BC4D9F /* TabBarItemType.swift in Sources */,
 				98E116BE1F74E89600FC1E83 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH7SBDD83A;
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicklee.Running;
@@ -294,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MH7SBDD83A;
 				INFOPLIST_FILE = Running/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicklee.Running;
